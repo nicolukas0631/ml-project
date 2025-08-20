@@ -1,4 +1,4 @@
-# README for Predictive Modeling Project for OilyGiant
+# Proyecto de Modelado Predictivo para OilyGiant / Predictive Modeling Project for OilyGiant
 
 ## Overview
 This project aims to develop a predictive model for OilyGiant, an oil company seeking to identify the best regions for opening new oil extraction wells. The analysis is based on three different datasets representing various regions, focusing on the volume of reserves per well and other relevant characteristics.
@@ -36,7 +36,7 @@ The project is structured as follows:
 This project provides valuable insights for OilyGiant in making informed decisions regarding oil extraction investments.
 
 
-# Proyecto de Modelado Predictivo para OilyGiant / Predictive Modeling Project for OilyGiant
+
 
 ---
 
