@@ -64,24 +64,3 @@ Este proyecto desarrolla un modelo predictivo para OilyGiant, una empresa petrol
 
 ---
 
-## English
-
-### Overview
-This project develops a predictive model for OilyGiant, an oil company seeking to identify the best region to open new extraction wells. The analysis is based on three datasets from different regions, focusing on the volume of reserves per well and other relevant features.
-
-### Objectives
-1. Collect parameters and objectives from different regions.
-2. Build a model to predict oil reserve volumes in new wells.
-3. Select the region with the highest estimated values.
-4. Identify the region with the greatest profit potential and lowest risk of loss.
-
-### Methodology
-- **Data Preprocessing**: Checked for duplicates and nulls. Selected features: `f0`, `f1`, `f2`, and `product`.
-- **Modeling**: Trained a linear regression model for each region, splitting data into training and validation sets (75:25) and standardizing features. Evaluated performance with RMSE and R².
-- **Profit Calculation**: Established the minimum production volume to avoid losses and calculated potential profits for the top 200 wells in each region.
-- **Risk Analysis**: Used bootstrapping to estimate loss risk and profit distribution.
-
-### Conclusions
-- All datasets were clean and ready for analysis.
-- The Region 2 model performed best (lowest RMSE, highest R²).
-- Although Region 1 showed the highest potential profits, Region 2 is the best option due to its low risk (1.5%) and average profit of $4.5 million.
